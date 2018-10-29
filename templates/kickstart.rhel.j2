@@ -27,8 +27,6 @@ poweroff
 reboot --eject
 {% endif %}
 
-subscription-manager repo-override --repo=rhel-7-server-rpms --add=priority:1
-
 %packages --nobase
 @core
 %end
